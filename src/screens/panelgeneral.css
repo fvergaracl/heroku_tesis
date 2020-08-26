@@ -1,0 +1,97 @@
+/* Font Imports ************************************************************* */
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+/* Gradient Header Styling ************************************************** */
+#gradient-header {
+    background: linear-gradient(110deg, #7cb483, #161B33);
+}
+#gradient-footer {
+    background: linear-gradient(110deg, #7cb483, #7C99B4);
+}
+
+/* Defining Font Families *************************************************** */
+.f-prime {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.f-second, .f-third {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: normal;
+}
+
+/* Defining Font Sizing ***************************************************** */
+.large {
+    font-size: 2.5rem;
+}
+.med {
+    font-size: 2rem;
+}
+.sml {
+    font-size: 1.5rem;
+}
+
+/* Defining Font Colors ***************************************************** */
+.primes {
+    color: #172A3A;
+}
+.seconds {
+    color: #4C5C68;
+}
+.thirds {
+    color: #A0B9BF;
+}
+
+/* Card Styling ************************************************************* */
+.card {
+    background-color: transparent;
+    border: 0px;
+}
+.card .thumbnail {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.card .thumbnail .caption {
+    background: linear-gradient(45deg, #4C5C68, #A0B9BF);
+    margin: -20px 20px 20px 20px;
+    padding: 19px 29px 19px 29px;
+    position: relative;
+    border: 0px;
+}
+.card .thumbnail .caption hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 20px 40px;
+}
+.card .thumbnail .caption p {
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+.card .thumbnail .caption .btn-card {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-weight: normal;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.25rem 1.25rem;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+    border-radius: 0px;
+}
+.card .thumbnail .caption .btn-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.card .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+/* ************************************************************************** */
